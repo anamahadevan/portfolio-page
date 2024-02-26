@@ -1,0 +1,17 @@
+.nav{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+}
+
+.nav-item{
+    padding: 0.2em;
+}
+  
+.nav-icon {
+    width:4em;
+    height:auto;
+}
