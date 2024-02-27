@@ -10,6 +10,11 @@
     font-size: 0.7em;
 }
 
+.window-content{
+    width: 20em;
+    height: 20em;
+}
+
 .title-bar{
     align-items: center;
     background: linear-gradient(90deg, #24bdff,#70f3ff,#bcf4ff);

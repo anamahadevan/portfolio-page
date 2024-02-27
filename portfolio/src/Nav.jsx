@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './Nav.css'
 //importing new window content 
 import About from './windowContent/About.jsx'
+import Resume from './windowContent/Resume.jsx'
+import Projects from './windowContent/Projects.jsx'
 
 //static data of possible windows that can be added to openList from nav bar 
 const navWindows =
@@ -13,7 +15,7 @@ const navWindows =
     },
     "resume / cv" : {
       title: "resume / cv",
-      windowContent: <></>,
+      windowContent: <Resume/>,
       img : '/img/y2k/cherry.png'
     },
     "projects" : {
