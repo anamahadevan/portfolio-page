@@ -11,22 +11,22 @@ const navWindows =
     "about" : {
       title: "about", 
       windowContent: <About/>,
-      img : '/img/y2k/miffy.png'
+      img : '/img/miffy.png'
     },
     "resume / cv" : {
       title: "resume / cv",
       windowContent: <Resume/>,
-      img : '/img/y2k/cherry.png'
+      img : '/img/cherry.png'
     },
     "projects" : {
       title: "projects",
       windowContent: <></>,
-      img : '/img/y2k/shell.png'
+      img : '/img/shell.png'
     },
     "contact" : {
       title: "contact",
       windowContent: <></>,
-      img : '/img/y2k/ghost.png'
+      img : '/img/ghost.png'
     }
   }
   

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Window from './Window.jsx'
 import Nav from './Nav.jsx'
+import background from "./assets/beach.gif";
 
 function App() {
   // creates setter function for state of windows open
@@ -32,7 +33,7 @@ function App() {
   console.log(listOpen)
   return (
     <>
-      <div className='container'>
+      <div className='container' style={{ backgroundImage: `url(${background})` }}>
       <Nav openWindow={openWindow}/>
      {/* close window mapped */}
     {listOpen.map((item,index) => (<Window key={index} windowTitle={item.title} windowContent={item.content} closeWindow={closeWindow}></Window>))}
