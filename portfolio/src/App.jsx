@@ -35,6 +35,7 @@ function App() {
     <>
       <div className='container' style={{ backgroundImage: `url(${background})` }}>
       <Nav openWindow={openWindow}/>
+      
      {/* close window mapped */}
     {listOpen.map((item,index) => (<Window key={index} windowTitle={item.title} windowContent={item.content} closeWindow={closeWindow}></Window>))}
       </div>
