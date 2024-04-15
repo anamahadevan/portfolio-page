@@ -5,8 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url(/img/beach.gif);
-  background-repeat: no-repeat;
+  background-image: url(/img/beach2.gif);
+  background-repeat:repeat;
   background-size:cover;
 
   font-synthesis: none;

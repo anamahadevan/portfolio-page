@@ -15,19 +15,24 @@ function App() {
 
   // append new window title(and content) to listOpen list 
   function openWindow(title, content){
-    if(listOpen.includes(title)){return}
-
+    // Check if a window with the same title already exists
+    const windowExists = listOpen.some(window => window.title === title);
+  
+    if(windowExists) {
+      // If it does, return early to prevent opening a duplicate window
+      return;
+    }
+  
     setListOpen(function(listOpen){
-    // create a copy of the array for react
-    listOpen = listOpen.slice()
-    
-    // opens new object with our title and content
-    listOpen.push({ title:title, content: content})
-    console.log(title, content)
-
-    return listOpen
-   })
-
+      // create a copy of the array for react
+      listOpen = listOpen.slice()
+      
+      // opens new object with our title and content
+      listOpen.push({ title:title, content: content})
+      console.log(title, content)
+  
+      return listOpen
+    })
   }
 
   console.log(listOpen)
