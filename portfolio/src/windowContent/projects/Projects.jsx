@@ -1,28 +1,39 @@
 import { useState } from 'react'
+import './Projects.css'
+import synth from '../../img/synthcover.jpg'
+import cap from '../../img/capcover.jpg'
+import cat from '../../img/catcover.jpg'
+import bea from '../../img/beacover.jpg'
+
 
 //static data of possible windows that can be added to openList from nav bar 
 // project 
 const projectPreviews =
   [
    {
-      title: "projects", 
+      title: "synthUX hackathon winner", 
       windowContent:  <></>,
-      preview : '/'
+      preview : synth
     },
    {
-      title: "projects 2",
+      title: "senior capstone project",
       windowContent:  <></>,
-      preview : '/'
+      preview : cap
     },
     {
-      title: "project 3",
+      title: "cat toy robot",
       windowContent: <></>,
-      preview : '/'
+      preview : cat
     },
     {
-      title: "projects 4",
+      title: "mixed-media animation",
       windowContent: <></>,
-      preview : '/'
+      preview : bea
+    },
+    {
+      title: "pomodoro app",
+      windowContent: <></>,
+      preview : cat
     }
   ]
 
@@ -33,7 +44,7 @@ const projectPreviews =
       // add onclick event that opens new window, takes in the title key and pulls the content from the title
       <button className= "project-item" onClick={()=> openWindow(projectPreview.title, projectPreview.windowContent)}>
           <img className="content-preview" src={projectPreview.preview}/>
-          <p> {projectPreview.title} ★ </p>
+          <p> {projectPreview.title}  </p>
       </button>
 
     )
@@ -49,7 +60,6 @@ export default function Projects({openWindow}) {
 
         {/* // mapping //  */}
         {projectPreviews.map((projectPreview) => (<ProjectItem openWindow ={openWindow} key={projectPreview.title} projectPreview={projectPreview} />))}
-
         
         </div>
         </>

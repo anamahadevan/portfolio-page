@@ -1,11 +1,13 @@
 import { useState } from "react"
 import './Window.css'
+import Draggable from 'react-draggable';
 
  // creating window object with content and title
 export default function Window({windowTitle, windowContent, closeWindow}){
     
     return (
-        <div className="window">
+        <Draggable>
+            <div className="window">
             <div className="title-bar"> 
                 <div className="title-text">{windowTitle}</div>
                 {/* button for close and fullscreen */}
@@ -23,6 +25,7 @@ export default function Window({windowTitle, windowContent, closeWindow}){
                 <p class="status-bar-field">CPU Usage: 77.7%</p>
             </div>
         </div>
+        </Draggable>
     )
 
 }

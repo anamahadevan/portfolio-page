@@ -4,6 +4,10 @@ import './Nav.css'
 import About from './windowContent/About.jsx'
 import Resume from './windowContent/Resume.jsx'
 import Projects from './windowContent/projects/Projects.jsx'
+import iconOne from './img/miffy.png'
+import iconTwo from './img/cherry.png'
+import iconThree from './img/shell.png'
+import iconFour from './img/ghost.png'
 
 //static data of possible windows that can be added to openList from nav bar 
 const navWindows =
@@ -11,22 +15,22 @@ const navWindows =
     "about" : {
       title: "about", 
       windowContent: <About/>,
-      img : '/img/miffy.png'
+      img : iconOne
     },
     "resume / cv" : {
       title: "resume / cv",
       windowContent: <Resume/>,
-      img : '/img/cherry.png'
+      img : iconTwo
     },
     "projects" : {
       title: "projects",
       windowContent: <></>,
-      img : '/img/shell.png'
+      img : iconThree
     },
     "contact" : {
       title: "contact",
       windowContent: <></>,
-      img : '/img/ghost.png'
+      img : iconFour
     }
   }
   

@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <>
       <div>
-        <iframe src={resumePdf} width="100%" height="600px"></iframe>
+        <iframe className='' src={resumePdf} width="100%" height="600px"></iframe>
       </div>
     </>
   );

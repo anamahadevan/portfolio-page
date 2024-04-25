@@ -8,7 +8,15 @@
     -webkit-font-smoothing: none;
     font-family: "Pixelated MS Sans Serif",Arial;
     font-size: 0.7em;
+    position: absolute;
+    top:50%;
+    left:50%;
 
+}
+
+.window:has(.project-container){
+    top:45%;
+    left:50%;
 }
 
 .window-content{
@@ -63,3 +71,4 @@
     margin: 0;
     padding: 2px 3px;
 }
+

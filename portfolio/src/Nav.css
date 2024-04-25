@@ -16,3 +16,28 @@
     width:4em;
     height:auto;
 }
+
+/* /// making rsponsive //// */
+
+
+@media screen and (max-width: 768px) {
+    .nav{
+        top: 0;
+        left: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em;
+        flex-wrap: wrap;
+        margin-top: 10em;
+    }
+    .nav-item{
+        padding: 0.2em 1em;
+        background: #ffd6e7;
+        box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+        padding: 3px;
+    }
+    .nav-icon {
+        width:10em;
+    }
+    
+}
