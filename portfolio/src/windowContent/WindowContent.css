@@ -1,26 +1,30 @@
  
  
- /* css for about window  */
+ /* basic content sizing set up  */
 
-.about-container{
-    background: #ffd6e7;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
-    padding: 3px;
+.window-container{
+    /* background: #ffecf4;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow:auto;
+    max-height: 100%;
     color: #0a0a0a;
 }
 
-.about-back{
-    background: #ffd6e7;
-   
-}
+ 
+ /* css for about window  */
+
 
 .profile-section{
     display: flex;
     padding: 1em;
 }
 .profile-pic{
-    width:auto;
-    height: 100px;
+    width:45%;
+    height: 50%;
     border: 2px inset #ffddec;
     padding-left: 0.5em;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
@@ -28,15 +32,68 @@
 }
 
 .profile-info{
+    font-size: 1em;
     text-align: center;
     padding-left: 0.5em;
 }
 
 .profile-info-head{
-    font-size: medium;
+  font-size: 1.4em;
+}
+.profile-info-text{
+    font-size: 1.4em;
 }
 
 .int-section{
+    /* box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff; */
     text-align: left;
-    padding: 0.5em;
+    padding: 0em;
 }
+
+.int-section ul{
+    list-style: none;
+    padding-left: 1.5em;
+}
+ 
+.int-section li{
+    margin-bottom: 0.8em;  
+    font-size: 1.2em;
+}
+ 
+ /* css for contact window  */
+
+ #contact-container{
+    background-image: url(https://media0.giphy.com/media/3d63YDxRJRtkZepvGm/giphy.gif?cid=6c09b952z1numuihbfhicwsvy52qfas4nyhf3o0yv0ijmydr&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    height: 100%;
+ }
+
+ .contact-title{
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: fixed;
+    padding: 0.2em;
+    border: 1.7px solid #c6ac9b;
+    border-radius: 5px;
+    font-size: 3em;
+ }
+
+.contacts ul {
+    display: flex;
+    padding: 0;
+}
+
+.contacts li {
+    padding: 1.4em;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;  
+}
+
+.contact-icon {
+    width: 6em; 
+}
+
+
+
+
+

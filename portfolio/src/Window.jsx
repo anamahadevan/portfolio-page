@@ -20,9 +20,9 @@ export default function Window({windowTitle, windowContent, closeWindow}){
                 {windowContent}
             </div>
             
-            <div class="status-bar">
-                <p class="status-bar-field">Press F1 for help</p>
-                <p class="status-bar-field">CPU Usage: 77.7%</p>
+            <div className="status-bar">
+                <button className="status-bar-field">Press F1 for help</button>
+                <button className="status-bar-field">CPU Usage: 77.7%</button>
             </div>
         </div>
         </Draggable>

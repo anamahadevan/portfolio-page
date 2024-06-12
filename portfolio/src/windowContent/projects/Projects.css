@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     margin: 0.5em;
-    padding:0em;
+    padding:2em;
     overflow:auto;
     max-height: 100%;
 }
@@ -20,8 +20,9 @@
     font-family: "Pixelated MS Sans Serif",Arial;
     font-size: 0.7em;
     color: #0a0a0a;
-    width: 15em;
+    width: 17em;
     flex-shrink: 0;
+    padding: 1em;
 }
 
  /* preview image in box */
@@ -30,4 +31,13 @@
     width: 15em;
 }
 
+.content-title{
+    font-size: 1.4em;
+}
+
  /* -------   general ------- */
+
+ .post-container {
+    display: flex;
+    flex-wrap: wrap;
+ }
