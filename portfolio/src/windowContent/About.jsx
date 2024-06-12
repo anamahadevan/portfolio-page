@@ -1,5 +1,6 @@
 import './WindowContent.css'
 import profilepic from '../img/profilepic.png'
+import profilepic2 from '../img/profilepic2.jpg'
 
 
 export default function About() {
@@ -30,6 +31,7 @@ export default function About() {
                         <li><b>fav software:</b> figma</li>
                         <li><b>fav animal:</b> cats</li>
                     </ul>
+                    <img className='profile-pic' src={profilepic2} /> 
                 </div>        
             </div>
          </div>

@@ -19,7 +19,7 @@
     border-radius: 0;
     font-family: "Pixelated MS Sans Serif",Arial;
     font-size: 0.7em;
-    color: #0a0a0a;
+
     width: 17em;
     flex-shrink: 0;
     padding: 1em;
@@ -38,6 +38,21 @@
  /* -------   general ------- */
 
  .post-container {
+    color: #0a0a0a;
     display: flex;
     flex-wrap: wrap;
+    padding: 1em;
+    justify-content: space-evenly;
+ }
+
+ .blog-text{
+    width:45%;
+ }
+
+ .blog-photo{
+    width:45%;
+    height: 50%;
+    border: 2px inset #ffddec;
+
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
  }

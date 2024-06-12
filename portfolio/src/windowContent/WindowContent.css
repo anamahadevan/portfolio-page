@@ -48,6 +48,7 @@
     /* box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff; */
     text-align: left;
     padding: 0em;
+    display: flex;
 }
 
 .int-section ul{
@@ -63,7 +64,7 @@
  /* css for contact window  */
 
  #contact-container{
-    background-image: url(https://media0.giphy.com/media/3d63YDxRJRtkZepvGm/giphy.gif?cid=6c09b952z1numuihbfhicwsvy52qfas4nyhf3o0yv0ijmydr&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    /* background-image: url(https://media0.giphy.com/media/3d63YDxRJRtkZepvGm/giphy.gif?cid=6c09b952z1numuihbfhicwsvy52qfas4nyhf3o0yv0ijmydr&ep=v1_gifs_search&rid=giphy.gif&ct=g); */
     height: 100%;
  }
 

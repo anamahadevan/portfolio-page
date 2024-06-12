@@ -4,6 +4,7 @@ import synth from '../../img/synthcover.jpg'
 import cap from '../../img/capcover.jpg'
 import cat from '../../img/catcover.jpg'
 import bea from '../../img/beacover.jpg'
+import Synth from '../projects/SynthUX.jsx'
 
 
 //static data of possible windows that can be added to openList from nav bar 
@@ -12,7 +13,7 @@ const projectPreviews =
   [
    {
       title: "synthUX hackathon winner", 
-      windowContent:  <></>,
+      windowContent:  <Synth/>,
       preview : synth
     },
    {
