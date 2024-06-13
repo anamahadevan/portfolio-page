@@ -1,6 +1,6 @@
 import './Projects.css'
-import synth1 from '../../img/beacover.jpg'
-import synth2 from '../../img/beacover.jpg'
+import synth1 from '../../img/synth1.jpg'
+import synth2 from '../../img/synth2.jpg'
 
 
 export default function SynthUX() {
