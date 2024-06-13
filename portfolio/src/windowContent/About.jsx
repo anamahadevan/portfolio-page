@@ -27,11 +27,10 @@ export default function About() {
                         <li><b>name:</b> ana mahadevan</li>
                         <li><b>pronouns:</b>they / she </li>
                         <li><b>sign:</b> ☼ pisces / ☽ capricorn</li>
-                        <li><b>status:</b> taken ♡</li>
                         <li><b>fav software:</b> figma</li>
                         <li><b>fav animal:</b> cats</li>
                     </ul>
-                    <img className='profile-pic' src={profilepic2} /> 
+                    <img src={profilepic2} /> 
                 </div>        
             </div>
          </div>

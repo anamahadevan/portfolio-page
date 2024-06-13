@@ -43,16 +43,29 @@
     flex-wrap: wrap;
     padding: 1em;
     justify-content: space-evenly;
+    overflow:auto;
  }
 
  .blog-text{
     width:45%;
  }
 
- .blog-photo{
+
+ .blog-text-b{
+    width:45%;
+    padding-top: 0.34em;
+ }
+
+ .blog-photo-a{
     width:45%;
     height: 50%;
     border: 2px inset #ffddec;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+ }
 
+ .blog-photo-b{
+    width:45%;
+    height: 50%;
+    border: 2px inset #ffddec;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
  }
