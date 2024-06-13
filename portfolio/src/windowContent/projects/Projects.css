@@ -6,8 +6,8 @@
     align-items: center;
     margin: 0.5em;
     padding:2em;
-    overflow:auto;
-    max-height: 100%;
+    overflow:scroll;
+    max-height: 95%;
 }
 
  /* each box */
@@ -68,4 +68,11 @@
     height: 50%;
     border: 2px inset #ffddec;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+ }
+
+ 
+ /* -------   mixed media animation ------- */
+ .bea-video{
+   width:32em;
+   height: 30em;
  }

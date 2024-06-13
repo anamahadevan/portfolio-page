@@ -2,9 +2,11 @@ import { useState } from 'react'
 import './Projects.css'
 import synth from '../../img/synthcover.jpg'
 import cap from '../../img/capcover.jpg'
-import cat from '../../img/catcover.jpg'
+import site from '../../img/site1.jpg'
 import bea from '../../img/beacover.jpg'
 import Synth from '../projects/SynthUX.jsx'
+import Site from '../projects/Site.jsx'
+import Bea from '../projects/Bea.jsx'
 
 
 //static data of possible windows that can be added to openList from nav bar 
@@ -18,23 +20,23 @@ const projectPreviews =
     },
    {
       title: "senior capstone project",
-      windowContent:  <></>,
+      windowContent:   <></>,
       preview : cap
     },
     {
-      title: "cat toy robot",
-      windowContent: <></>,
-      preview : cat
+      title: "making this site",
+      windowContent: <Site/>,
+      preview : site
     },
     {
       title: "mixed-media animation",
-      windowContent: <></>,
+      windowContent: <Bea/>,
       preview : bea
     },
     {
       title: "pomodoro app",
       windowContent: <></>,
-      preview : cat
+      preview : cap
     }
   ]
 
