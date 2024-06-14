@@ -2,7 +2,7 @@ import React from "react";
 import './Projects.css'
 import YoutubeEmbed from "./YoutubeEmbed";
 
-export default function SynthUX() {
+export default function Bea() {
 
     return (
         <>

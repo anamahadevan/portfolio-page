@@ -26,15 +26,6 @@ export default function SynthUX() {
           as both a designer and developer.
         </p>   
         <img className='blog-photo-b' src={site2} /> 
-        {/* <img className='blog-photo-a' src={synth3} /> 
-        <p className='blog-text'> Each component of the Collaborator
-         offers unique functionalities: from generative drum patterns 
-         controlled by thumb sticks to walking bass lines and chord variations
-          controlled by buttons and touch sensors. The device also features parent 
-          controls for tempo, pitch, and effects, fostering a seamless and immersive 
-          collaborative music-making experience.
-
-        </p> */}
         </div>
       
         </>

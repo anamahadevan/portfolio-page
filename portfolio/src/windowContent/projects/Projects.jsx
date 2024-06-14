@@ -5,6 +5,7 @@ import cap from '../../img/capcover.jpg'
 import site from '../../img/site1.jpg'
 import bea from '../../img/beacover.jpg'
 import Synth from '../projects/SynthUX.jsx'
+import Cap from '../projects/Cap.jsx'
 import Site from '../projects/Site.jsx'
 import Bea from '../projects/Bea.jsx'
 
@@ -20,7 +21,7 @@ const projectPreviews =
     },
    {
       title: "senior capstone project",
-      windowContent:   <></>,
+      windowContent:   <Cap/>,
       preview : cap
     },
     {
