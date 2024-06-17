@@ -3,6 +3,7 @@ import './App.css'
 import Window from './Window.jsx'
 import Nav from './Nav.jsx'
 
+
 function App() {
   // creates setter function for state of windows open
   const [listOpen, setListOpen] = useState([])
