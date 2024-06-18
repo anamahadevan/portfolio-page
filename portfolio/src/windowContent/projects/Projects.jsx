@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './Projects.css'
 import synth from '../../img/synthcover.jpg'
 import cap from '../../img/capcover.jpg'
-import site from '../../img/site1.jpg'
+// import site from '../../img/site1.jpg'
 import bea from '../../img/beacover.jpg'
 import pom from '../../img/pomcover.jpg'
 import Synth from '../projects/SynthUX.jsx'
 import Cap from '../projects/Cap.jsx'
-import Site from '../projects/Site.jsx'
+// import Site from '../projects/Site.jsx'
 import Bea from '../projects/Bea.jsx'
 import Pom from '../projects/Pom.jsx'
 
@@ -27,21 +27,23 @@ const projectPreviews =
       preview : cap
     },
     {
-      title: "making this site",
-      windowContent: <Site/>,
-      preview : site
+      title: "pomcat app",
+      windowContent: <Pom/>,
+      preview : pom
     },
     {
       title: "mixed-media animation",
       windowContent: <Bea/>,
       preview : bea
-    },
-    {
-      title: "pomodoro app",
-      windowContent: <Pom/>,
-      preview : pom
     }
   ]
+
+  // ,
+  //   {
+  //     title: "making this site",
+  //     windowContent: <Site/>,
+  //     preview : site
+  //   }
 
   // use open window function , passing in whole projectPreview items
   function ProjectItem({projectPreview, openWindow}) {

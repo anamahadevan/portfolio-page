@@ -11,27 +11,24 @@ export default function SynthUX() {
     return (
         <>
 
-        <div className='pom-container'>
+        <div className='post-container'>
         <img className='blog-photo-a' src={pom1} /> 
         <p className='blog-text'> 
-          After the passing of my cat in my senior year of 
-          college, I struggled with maintaining focus and
-           productivity. I set out to build a cat-themed 
-           timer app using the “Pomodoro Technique",a time 
-           management method that involves alternating between
-          25-minute periods of focused work and five-minute breaks. After four consecutive work intervals, a longer break of 15–30 minutes is taken.
+        After my cat passed away senior year of 
+        college, I found myself struggling to focus on work.
+        I set out to build a cat-themed timer app to help
+        using the “Pomodoro Technique", and started  
+        hand-drawing icons based on my pet.
         </p>    
         <p className='blog-text-b'> 
-        I started by hand-drawing icons then digitized them in 
-        Photoshop into polished assets for the app. I translated 
-        these designs into detailed wireframes using Figma,and
-        implemented the app in Swift, combining functionality
-        with heartfelt aesthetic. The project not only helped
-        me regain productivity but also became a meaningful 
+        I digitized assets in Photoshop, translated 
+        sketches into detailed wireframes using Figma,and then
+        implemented the app in Swift. The project not only helped
+        me manage time but also became a meaningful 
         homage to my kitty.
-
         </p>   
         <img className='blog-photo-b' src={pom2} /> 
+        <br></br>
         <YoutubeEmbed embedId="D2P2egjJAH4" />
         </div>
         </>
