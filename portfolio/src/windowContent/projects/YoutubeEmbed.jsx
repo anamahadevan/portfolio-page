@@ -4,11 +4,11 @@ import './Projects.css'
 
 const YoutubeEmbed = ({ embedId }) => (
   <div className="video-responsive">
-    <iframe className="bea-video"
+    <iframe className="video"
       src={`https://www.youtube.com/embed/${embedId}`}
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
-      title="beabadoobee mixed-media animation"
+      title="project"
     />
   </div>
 );
