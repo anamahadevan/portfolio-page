@@ -9,7 +9,8 @@ export default function Window({windowTitle, windowContent, closeWindow}){
     let [fullScreen, setFullscreen]= useState(false);
     
     return (
-        <Draggable>
+        // pass in position object
+        <Draggable position ={fullScreen?{x:0, y:0}:undefined} disabled = {fullScreen}>
             <div className="window">
             <div className="title-bar"> 
                 <div className="title-text">{windowTitle}</div>
