@@ -24,6 +24,18 @@
     height: 35em;
 }
 
+.window-content-full{
+    width: 100vw;
+    height: calc(100vh - 4.75em);
+    overflow: visible;
+}
+
+
+.window:has(.window-content-full){
+    top:0%;
+    left:0%;
+}
+
 .title-bar{
     color: #000000;
     align-items: center;
@@ -34,7 +46,7 @@
 }
 
 .title-bar-text {
-    font-weight: 700;
+    font-weight: 1.5em;
     letter-spacing: 0;
 }
 

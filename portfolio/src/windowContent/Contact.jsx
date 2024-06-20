@@ -6,7 +6,7 @@ import behance from '../img/behance.png';
 const socialLinks = [
     { href: "https://www.linkedin.com/in/ana-mahadevan-4ab433199/", src: "https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png", text: "linkedin" },
     { href: "https://github.com/anamahadevan", src: github, text: "github" },
-    { href: "https://cinni.dreamwidth.org/", src: behance, text: "behance" }
+    { href: "https://www.behance.net/anamahadevan", src: behance, text: "behance" }
 ];
 
 function SocialItem({ link }) {

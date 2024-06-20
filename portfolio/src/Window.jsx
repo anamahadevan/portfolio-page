@@ -5,6 +5,9 @@ import Draggable from 'react-draggable';
  // creating window object with content and title
 export default function Window({windowTitle, windowContent, closeWindow}){
     
+    // if fullscreen is hit
+    let [fullScreen, setFullscreen]= useState(false);
+    
     return (
         <Draggable>
             <div className="window">
@@ -12,11 +15,12 @@ export default function Window({windowTitle, windowContent, closeWindow}){
                 <div className="title-text">{windowTitle}</div>
                 {/* button for close and fullscreen */}
                 <div className="title-bar-controls">
+                    <button onClick={()=> setFullscreen(!fullScreen)}>&#x26F6;</button>
                     <button onClick={()=> closeWindow(windowTitle)}>x</button>
                 </div>
             </div>
-
-            <div className="window-content">
+              {/* if fullscreen = true , then window-full class added */}
+            <div className={`window-content ${fullScreen?"window-content-full":""}`}>
                 {windowContent}
             </div>
             
