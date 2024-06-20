@@ -1,11 +1,12 @@
 import './WindowContent.css';
-import icon1 from '../img/profilepic.png';
+import github from '../img/github.png';
+import behance from '../img/behance.png';
 
 // Static data for social media links
 const socialLinks = [
     { href: "https://www.linkedin.com/in/ana-mahadevan-4ab433199/", src: "https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png", text: "linkedin" },
-    { href: "https://github.com/anamahadevan", src: "https://static-00.iconduck.com/assets.00/github-icon-2048x2048-4uclrgic.png", text: "github" },
-    { href: "https://cinni.dreamwidth.org/", src: "https://cdn.icon-icons.com/icons2/2873/PNG/512/instagram_pixel_logo_icon_181922.png", text: "insta" }
+    { href: "https://github.com/anamahadevan", src: github, text: "github" },
+    { href: "https://cinni.dreamwidth.org/", src: behance, text: "behance" }
 ];
 
 function SocialItem({ link }) {
