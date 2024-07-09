@@ -48,6 +48,7 @@
 }
 
 .title-bar-text {
+    color: #000000;
     font-weight: 1.5em;
     letter-spacing: 0;
 }
@@ -60,6 +61,7 @@
 }
 
 .title-bar-controls button {
+    color: #000000;
     min-height: 1.5em;
     min-width: 1.5em;
     font-size: 1.1em;
