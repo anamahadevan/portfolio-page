@@ -6,8 +6,8 @@
     align-items: center;
     margin: 0.5em;
     padding:2em;
-    overflow:scroll;
-    max-height: 95%;
+    overflow:auto;
+    max-height: 86%;
 }
 
  /* each box */

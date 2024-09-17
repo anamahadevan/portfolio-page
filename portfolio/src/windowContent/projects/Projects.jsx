@@ -50,10 +50,12 @@ const projectPreviews =
     return(
   
       // add onclick event that opens new window, takes in the title key and pulls the content from the title
-      <button className= "project-item" onClick={()=> openWindow(projectPreview.title, projectPreview.windowContent)}>
+    <div className='overflow'>
+        <button className= "project-item" onClick={()=> openWindow(projectPreview.title, projectPreview.windowContent)}>
           <img className="content-preview" src={projectPreview.preview}/>
           <p className='content-title'> {projectPreview.title}  </p>
       </button>
+    </div>
 
     )
   }
