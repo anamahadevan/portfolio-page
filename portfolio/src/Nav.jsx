@@ -3,7 +3,7 @@ import './Nav.css'
 //importing new window content 
 import About from './windowContent/About.jsx'
 import Resume from './windowContent/Resume.jsx'
-import Contact from './windowContent/Contact.jsx'
+import Deck from './windowContent/Deck.jsx'
 import Projects from './windowContent/projects/Projects.jsx'
 import iconOne from './img/icon1.png'
 import iconTwo from './img/cherry.png'
@@ -28,9 +28,9 @@ const navWindows =
       windowContent: <></>,
       img : iconThree
     },
-    "contact" : {
-      title: "contact",
-      windowContent: <Contact/>,
+    "deck" : {
+      title: "deck",
+      windowContent: <Deck/>,
       img : iconFour
     }
   }

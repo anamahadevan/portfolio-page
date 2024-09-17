@@ -1,7 +1,30 @@
 import './WindowContent.css'
 import profilepic from '../img/profilepic.png'
 import profilepic2 from '../img/profilepic2.jpg'
+import './WindowContent.css';
+import github from '../img/github.png';
+import behance from '../img/behance.png';
 
+
+// Static data for social media links
+const socialLinks = [
+    { href: "https://www.linkedin.com/in/ana-mahadevan-4ab433199/", src: "https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png", text: "linkedin" },
+    { href: "https://github.com/anamahadevan", src: github, text: "github" },
+    { href: "https://www.behance.net/anamahadevan", src: behance, text: "behance" }
+];
+
+
+function SocialItem({ link }) {
+    return (
+        <li>
+            <a href={link.href} target="_blank" rel="noopener noreferrer">
+                <img src={link.src} className="contact-icon" alt={link.text} />
+                <br />
+                {/* <span>{link.text}</span> */}
+            </a>
+        </li>
+    );
+}
 
 export default function About() {
 
@@ -31,7 +54,17 @@ export default function About() {
                         <li><b>fav animal:</b> cats</li>
                     </ul>
                     <img src={profilepic2} /> 
-                </div>        
+                </div>   
+                <div className="window-container" id='contact-container'>
+                <h1> where to find me! </h1>
+                <div className='contacts'>
+                    <ul>
+                    {socialLinks.map((link, index) => (
+                        <SocialItem key={index} link={link} />
+                    ))}
+                    </ul> 
+                </div>    
+                </div>   
             </div>
          </div>
         </>
