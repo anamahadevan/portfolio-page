@@ -17,7 +17,7 @@ import Pom from '../projects/Pom.jsx'
 const projectPreviews =
   [
    {
-      title: "synthUX hackathon winner", 
+      title: "synthUX hackathon", 
       windowContent:  <Synth/>,
       preview : synth
     },
